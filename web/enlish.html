@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguvu Kuu Za Mungu</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min,css">
+</head>
+<body>
+
+
+<!---------- heder -------------->
+
+
+    <section class="header">
+        <nav>
+                <a href="index.html"><img src="style/img/logo1.png" ></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index2.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="cont.html">CONTUCT US</a></li>
+                        <li><a href="swahili.html">SWAHILI LANG</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Nguvu Kuu Za Mungu</h1>
+        <p>Welcome To The Web Site Of Nguvu Kuu Za Mungu Church. <br>We Can Do All This Through Him Gives Us Strength<br>PHILP 4:13</p>
+        <p id="mypara">For More Communication</p>
+        <button type="button" onclick="funcClic()" class="hero-btn">Press Here</button>
+    </div>
+    </section>
+
+    <!---------- Course ---------------->
+
+    <section class="Course">
+        <h1>SERVICE TIME</h1>
+        <p>For More Help  Church Was Found In Tanzania-Arusha At Sanawari Street.</p>
+
+        <div class="row">
+            <a class="course-col" href="wenesday.html">
+            <div class="course-col">
+                <h3>WENESDAY</h3>
+                <p>Starts At 16:00pm<br>Praising And Worshiping</p>
+                <p>Click here</p>
+            </div>
+        </a>
+            <a class="course-col" href="friday.html">
+            <div class="course-col">
+                <h3>FRIDAY</h3>
+                <p>Starts At 14:00pm<br>Praising And Worshiping</p>
+                <p>Click here</p>
+            </div>
+        </a>
+            <a class="course-col" href="sunday.html">
+            <div class="course-col">
+                <h3>SUNDAY</h3>
+                <p>Starts At 9:30:am <br>There Will Be Sunday School, Praising And Worshiping</p>
+                <p>Click here</p>
+            </div>
+        </a>
+           
+    </section>
+
+    <!----------- Course ---------------->
+
+    <section class="Course">
+        <div class="row">
+            <div class="course-col">
+                <h3>NGUVU KUU ZA MUNGU</h3>
+                    <p>Welcome To The Web Site Of Nguvu Kuu Za Mungu Church. <br>We Can Do All This Through Him Gives Us Strength<br>PHILP 4:13</p>
+            </div>
+            <div class="course-col">
+                <h3>WALK WITH NAZARETH JESUS CHIRST</h3>
+                    <p>Acts 3:6<br>Then Peter Said "Silver And Gold I Do Not Have But What I Do Have I Give You: In The Name Of Jesus Chirst Of Nazareth,Rise Up And Walk</p>
+            </div>
+    </section>
+
+
+  <!------------ campus --------------->   
+    
+    
+  <section class="campus">
+
+            <h1>LOCATED AT</h1>
+                <P>Sanawari Branch At Kisongo</P>
+</section>
+
+
+
+<!------------ slider -------------->
+
+
+<section class="facility">
+    <div class="row">
+        <div class="facility-col">
+                <div class="wrapper">
+                    <img src="style/img/huf.jpg" >
+                    <img src="style/img/hud.jpg" >
+                    <img src="style/img/hug.jpg" >
+                    <img src="style/img/huf.jpg" >
+                    <img src="style/img/hud.jpg" >
+                </div>
+        </div>
+         <div class="facility-col">
+                <div class="wrapper">
+                    <img src="style/img/hud.jpg" >
+                    <img src="style/img/hug.jpg" >
+                    <img src="style/img/huf.jpg" >
+                    <img src="style/img/hud.jpg" >
+                    <img src="style/img/huf.jpg" >
+                </div>
+        </div>
+        <div class="facility-col">
+                <div class="wrapper">
+                    <img src="style/img/hug.jpg" >
+                    <img src="style/img/huf.jpg" >
+                    <img src="style/img/hud.jpg" >
+                    <img src="style/img/hug.jpg" >
+                    <img src="style/img/hud.jpg" >
+                </div>
+        </div>
+     </div>
+</section>
+
+
+
+<!------------- footer ------------------>
+
+
+<footer>
+    <div class="div">
+    </div>
+    <section class="footer">
+        <h4>ABOUT</h4>
+        <p class="pp">This Web Site Is For You <br>Know Jesus To Be Son Of GOD And Be Savied Against This World<br>FOLLO US ON</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-tweitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linked in"></i>
+        </div>
+    </section>
+</footer>
+
+
+
+<!------- javascript for mypara --------->
+
+
+
+
+
+<script type="text/javascript">
+    function funcClic() {
+        // head...
+    var x = document.getElementById("mypara");
+    x.innerHTML = "Call This PHONE NO 0756302908"
+    }
+</script>
+
+
+
+
+
+<!-------javascript for toggle menu-------->
+
+
+
+
+
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right ="0";
+    }
+    function hidemenu(){
+        navlinks.style.right ="-200px";
+    }
+
+</script>
+</body>
+</html>

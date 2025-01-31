@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguvu Kuu Za Mungu</title>
+    <link rel="stylesheet" href="style/juma.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min,css">
+</head>
+<body> 
+    <body>
+    <section class="header">
+        <nav>
+                <a href="index.html"><img src="style/img/logo1.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="enlish.html" class="hero-btn">Back</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </section>
+
+    <!---- Course ------>
+
+    <section class="Course">
+        <h1>SUNDAY VIDEOS</h1>
+        <p>Welcome To Nguvu Kuu.<BR>SUNDAY</p>
+        <div class="row">
+            <div class="course-col">
+                <VIdeo src="JUMAPILI/1.mp4" width="200pxpx" height="200px" controls loop >
+
+                </VIdeo>
+            </div>
+            <div class="course-col">
+                <VIdeo src="JUMAPILI/2.mp4"  width="200pxpx" height="200px" controls loop>
+                </VIdeo>
+            </div>
+            <div class="course-col">
+                <VIdeo src="JUMAPILI/3.mp4" width="200pxpx" height="200px" controls loop>
+                    
+                </VIdeo>
+            </div>
+    
+    </section>
+    <section class="Course">
+        <div class="row">
+            <div class="course-col">
+                <video src="JUMAPILI/4.mp4" width="200pxpx" height="200px" controls loop></video>
+            </div>
+            <div class="course-col">
+                <video src="JUMAPILI/5.mp4" width="200pxpx" height="200px" controls loop></video>
+            </div>
+            <div class="course-col">
+                <video src="JUMAPILI/6.mp4" width="200pxpx" height="200px" controls loop></video>
+            </div>
+    </section>
+
+
+<!-------javascript for toggle menu-------->
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right ="0";
+    }
+    function hidemenu(){
+        navlinks.style.right ="-200px";
+    }
+
+</script>
+<!------- footer -------->
+
+
+<footer>
+    <div class="div">
+        <a href="nextsunday.html" class="hero-btn">Next</a>
+    </div>
+    <section class="footer">
+        <h4>ABOUT</h4>
+        <p class="pp">This Web Site Is For You <br>Know Jesus To Be Son Of GOD And Be Savied Against This World<br>FOLLO US ON</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-tweitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linked in"></i>
+        </div>
+    </section>
+    
+   
+</footer>
+
+
+
+
+</body>
+</html>

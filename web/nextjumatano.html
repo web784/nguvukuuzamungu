@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguvu Kuu Za Mungu</title>
+    <link rel="stylesheet" href="style/juma.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min,css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+                <a href="index.html"><img src="style/img/logo1.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="jumatano.html" class="hero-btn">Rudi</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </section>
+    
+<!---------- Course --------------->
+
+    <section class="Course">
+        <h1>VIDEO ZA JUMATANO\</h1>
+        <p>Karibu Katika Kanisa La Nguvu Kuu.<BR>Maubiri Ya Jumapili</p>
+        <div class="row">
+            <div class="course-col">
+                <VIdeo src="JUMATANO/7.mp4" width="200pxpx" height="200px" controls loop >
+
+                </VIdeo>
+            </div>
+            <div class="course-col">
+                <VIdeo src="JUMATANO/8.mp4"  width="200pxpx" height="200px" controls loop>
+                </VIdeo>
+            </div>
+            <div class="course-col">
+                <VIdeo src="JUMATANO/9.mp4" width="200pxpx" height="200px" controls loop>
+                    
+                </VIdeo>
+            </div>
+    
+    </section>
+    <section class="Course">
+        <div class="row">
+            <div class="course-col">
+                <video src="JUMATANO/10.mp4" width="200pxpx" height="200px" controls loop></video>
+            </div>
+            <div class="course-col">
+                <video src="JUMATANO/11.mp4" width="200pxpx" height="200px" controls loop></video>
+            </div>
+            <div class="course-col">
+                <video src="JUMATANO/12.mp4" width="200pxpx" height="200px" controls loop></video>
+            </div>
+    </section>
+
+<!-------javascript for toggle menu-------->
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right ="0";
+    }
+    function hidemenu(){
+        navlinks.style.right ="-200px";
+    }
+
+</script>
+<!------- footer -------->
+
+
+<footer>
+    <section class="footer">
+        <h4>ABOUT</h4>
+        <p class="pp">Tuvuti Hii Ni Kwaajili Yako Wewe Mtumia Mtandao<br> Kumjua Yesu Na Kumpokea Na Kuokoka kwa Mawasiliano Zaidi Tutembele Kupitia Mitandao Ya</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-tweitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linked in"></i>
+        </div>
+    </section>
+    
+   
+</footer>
+</body>
+</html>
